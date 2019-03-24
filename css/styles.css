@@ -1,6 +1,6 @@
 h2 {
   font-family: cursive;
-  padding-top: 25px;
+  padding-top: 100px;
   text-align: center;
   color: #FF9999;
 }
@@ -29,7 +29,6 @@ h3{
   padding-bottom: 25px;
   border-radius: 90px;
 }
-
 
 .img-fluid{
   height: 50px;
