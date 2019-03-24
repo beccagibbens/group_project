@@ -2,7 +2,34 @@ h2 {
   font-family: cursive;
   padding-top: 25px;
   text-align: center;
+  color: #FF9999;
 }
+p{
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+  color: pink;
+}
+h3{
+  font-family: cursive;
+  text-align: left;
+  color: #FF9999;
+}
+
+.checked {
+  color: pink;
+}
+
+
+.lancasterimg{
+  padding-bottom: 50px;
+}
+
+.cafe{
+  padding-bottom: 25px;
+  border-radius: 90px;
+}
+
 
 .img-fluid{
   height: 50px;
