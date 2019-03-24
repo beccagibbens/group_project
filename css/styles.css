@@ -1,6 +1,13 @@
-body{
-  padding-top: 5rem;
+h2 {
+  font-family: cursive;
+  padding-top: 25px;
+  text-align: center;
 }
-.navbar-light{
-  background-colour: white;
+
+.img-fluid{
+  height: 50px;
+}
+
+.nav-item{
+  font-family: cursive;
 }
