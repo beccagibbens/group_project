@@ -21,7 +21,7 @@ p1{
 h3{
   font-family: 'Roboto Slab', serif;
   text-align: left;
-  color: #FF9999;
+  color: pink;
 }
 header.masthead{
   padding-top: 10rem;
@@ -46,8 +46,8 @@ hr{
   border-color: white;
 }
 
-.checked {
-  color: pink;
+.herb {
+  color: #008080;
 }
 
 
@@ -72,4 +72,20 @@ hr{
   font-family:'Roboto Slab', serif;
   font-weight: 700;
   color: #ff9999;
+}
+
+.journey{
+  color:	#808080;
+}
+
+.music{
+  color:	#A52A2A;
+}
+
+.hall{
+  color: #663399;
+}
+
+.study{
+  color: #FFB6C1;
 }
