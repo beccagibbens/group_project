@@ -9,6 +9,15 @@ h2 {
   text-align: center;
   color: #FF9999;
 }
+
+h2.recommendations{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-align: center;
+  color: #808080;
+  padding-top: 100px;
+}
+
 p{
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
@@ -27,6 +36,9 @@ h3{
   font-family: 'Roboto Slab', serif;
   text-align: left;
   color: pink;
+}
+section.recommendations{
+  padding-top: 10rem;
 }
 header.masthead{
   padding-top: 10rem;
@@ -60,6 +72,7 @@ hr{
 hr.grey{
   border-color: #E0E0E0;
   max-width: 100px;
+  padding-bottom: 20px;
 }
 
 .herb {
@@ -94,8 +107,31 @@ hr.grey{
 }
 
 .cafe{
+  width: 100%;
+  height: auto;
   padding-bottom: 25px;
   border-radius: 90px;
+}
+.link-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+
+.imagewrap:hover .link-description{
+  visibility: visible;
+  opacity: 1;
 }
 
 .img-fluid{
