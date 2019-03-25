@@ -1,20 +1,29 @@
 * {
   box-sizing: border-box;
 }
+
 h2{
   padding-top:150px;
   font-family:'Roboto Slab', serif;
   font-weight: 700;
 }
+
 p{
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   text-align: center;
   color: #808080;
 }
+
+hr{
+  border-width: 3px;
+  border-color: #ff9999;
+  max-width: 100px;
+  padding-bottom: 20px;
+}
+
 .img-fluid{
   height: 90px;
-
 }
 
 nav{
@@ -25,6 +34,7 @@ nav{
   font-family: 'Roboto Slab', serif;
   color: #FF9999;
 }
+
 .navbar-brand{
   font-family:'Roboto Slab', serif;
   font-weight: 700;
