@@ -140,3 +140,13 @@ hr.grey{
 .study{
   color: #FFB6C1;
 }
+
+.center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 150px;
+   height: 150px;
+   margin-top: -75px; /* Half the height */
+   margin-left: -75px; /* Half the width */
+}
