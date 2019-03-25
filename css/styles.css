@@ -1,19 +1,49 @@
 h2 {
-  font-family: cursive;
+  font-family: 'Roboto Slab', serif;
   padding-top: 100px;
   text-align: center;
   color: #FF9999;
 }
 p{
-  font-family: cursive;
+  font-family: 'Roboto Slab', serif;
   font-size: 20px;
   text-align: center;
   color: pink;
 }
+p1{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: white;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
 h3{
-  font-family: cursive;
+  font-family: 'Roboto Slab', serif;
   text-align: left;
   color: #FF9999;
+}
+header.masthead{
+  padding-top: 10rem;
+  padding-bottom: 100px;
+  background-image: url("../titlepage.jpg");
+  background-color: #cccccc;
+  background-position: center center;
+  background-size: cover;
+}
+.btn-primary{
+  background-color: #ffcccc;
+  border-color: #ffcccc;
+}
+.btn-primary:hover{
+  background-color: #ff9999;
+  border-color: #ff9999;
+}
+
+hr{
+  max-width: 50px;
+  border-width: 3px;
+  border-color: white;
 }
 
 .checked {
@@ -35,5 +65,11 @@ h3{
 }
 
 .nav-item{
-  font-family: cursive;
+  font-family: 'Roboto Slab', serif;
+  color: #FF9999;
+}
+.navbar-brand{
+  font-family:'Roboto Slab', serif;
+  font-weight: 700;
+  color: #ff9999;
 }

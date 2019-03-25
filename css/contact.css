@@ -11,7 +11,13 @@ nav{
 }
 
 .nav-item{
-  font-family: cursive;
+  font-family: 'Roboto Slab', serif;
+  color: #FF9999;
+}
+.navbar-brand{
+  font-family:'Roboto Slab', serif;
+  font-weight: 700;
+  color: #ff9999;
 }
 
 /* Style inputs */
@@ -22,10 +28,12 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #ffcccc;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -33,7 +41,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #ff9999;
+}
+
+label{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
 }
 
 /* Style the container/contact section */
