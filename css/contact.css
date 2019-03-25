@@ -1,9 +1,19 @@
 * {
   box-sizing: border-box;
 }
-
+h2{
+  padding-top:100px;
+  font-family:'Roboto Slab', serif;
+  font-weight: 700;
+}
+p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  text-align: center;
+  color: #808080;
+}
 .img-fluid{
-  height: 100px;
+  height: 90px;
 }
 
 nav{
@@ -38,10 +48,12 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 input[type=submit]:hover {
   background-color: #ff9999;
+  border-radius: 8px;
 }
 
 label{

@@ -1,3 +1,8 @@
+h1{
+  font-family: 'Gravitas One', cursive;
+  text-align: center;
+  color: white;
+}
 h2 {
   font-family: 'Roboto Slab', serif;
   padding-top: 100px;
@@ -25,19 +30,23 @@ h3{
 }
 header.masthead{
   padding-top: 10rem;
-  padding-bottom: 100px;
+  padding-bottom: 2rem;
   background-image: url("../titlepage.jpg");
   background-color: #cccccc;
   background-position: center center;
   background-size: cover;
 }
-.btn-primary{
+.btn-light{
   background-color: #ffcccc;
   border-color: #ffcccc;
+  color: white;
+  border-radius: 8px;
 }
-.btn-primary:hover{
+.btn-light:hover{
   background-color: #ff9999;
   border-color: #ff9999;
+  color: white;
+  border-radius: 8px;
 }
 
 hr{
@@ -45,11 +54,40 @@ hr{
   border-width: 3px;
   border-color: white;
 }
+.bg-primary{
+  background-color: white !important;
+}
+hr.grey{
+  border-color: #E0E0E0;
+  max-width: 100px;
+}
 
 .herb {
   color: #008080;
 }
 
+.footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: -60px;
+}
+.footer .fa {
+    padding: 5px;
+    margin: 10px;
+    font-size: 50px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+    background: #ffffff;
+    color: #ff9999;
+}
+.footer .fa:hover{
+  color: #E0E0E0;
+}
 
 .lancasterimg{
   padding-bottom: 50px;
