@@ -24,6 +24,9 @@ p{
   text-align: center;
   color: pink;
 }
+p.recommendations{
+  color: black;
+}
 p1{
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
